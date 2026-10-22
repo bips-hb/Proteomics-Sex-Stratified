@@ -14,6 +14,7 @@ The main workflow is:
 1. `01_preprocessing.R`
 2. `02_analysis.R`
 3. `03_mice_sensitivity.R`
+4. `04_graphical_abstract.R`
 
 ## Data availability
 
