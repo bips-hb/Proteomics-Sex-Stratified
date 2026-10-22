@@ -3705,7 +3705,7 @@ draw_network_edge_legend <- function(edge_abs_limits = NETWORK_EDGE_LIMITS,
   text(0.305, 0.65, "Negative", adj = c(0, 0.5), cex = 0.95)
   
   # ----- magnitude key: horizontal tapered bar -----
-  text(0.52, 0.88, "Edge strength: |partial correlation|", adj = c(0, 0.5),
+  text(0.52, 0.88, "Edge weight: |partial correlation|", adj = c(0, 0.5),
        font = 2, cex = 0.95)
   
   x0 <- 0.55
@@ -4138,7 +4138,7 @@ make_panel_plot <- function(obj, panel_title, show_legend = FALSE) {
     ) +
     geom_segment(
       data = obj$row_df,
-      aes(x = 2.16, xend = 2.20, y = y_target, yend = y_target),
+      aes(x = 2.30, xend = 2.34, y = y_target, yend = y_target),
       linewidth = 0.18,
       color = "grey72"
     ) +
@@ -4164,7 +4164,7 @@ make_panel_plot <- function(obj, panel_title, show_legend = FALSE) {
     ) +
     geom_text(
       data = obj$row_df,
-      aes(x = 2.24, y = y_target, label = pathway_wrap),
+      aes(x = 2.38, y = y_target, label = pathway_wrap),
       hjust = 0,
       vjust = 0.5,
       color = "black",
@@ -4191,7 +4191,7 @@ make_panel_plot <- function(obj, panel_title, show_legend = FALSE) {
     ) +
     annotate(
       "text",
-      x = 2.24, y = obj$header_y,
+      x = 2.38, y = obj$header_y,
       label = "Protein name",
       hjust = 0,
       fontface = "bold",
