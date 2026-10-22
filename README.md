@@ -19,3 +19,8 @@ The main workflow is:
 ## Data availability
 
 Individual-level NAKO proteomic and participant data are not included in this repository due to data protection and access restrictions.
+
+## Manuscript: 
+### Sex-stratified plasma proteomic signatures of chronological aging in the Bremen study center of the German National Cohort
+### Authors: 
+Giovanni Corradini, Ronja Foraita, Stefan Loroch, Johannes Balkenhol, Kathrin Günther, Oliver Tüscher, Christian Herder, Tamara Schikowski, Helen Morrison, Krasimira Aleksandrova
